@@ -10,10 +10,10 @@ from pushbullet import Pushbullet
 # Function to send Push Notification
 
 def notif(msg):
-    ph_key="o.bYeOTNoJX5lNhZM10ooLMFommYCRqMPa"
+    ph_key="o.bYeOTNoJX5lNhZM10ooLMFommYCR***"#use your pushbullet api
     pb=Pushbullet(ph_key)
     phone = pb.devices[0]
-    pb.push_sms(phone, "+919489837945",msg)
+    pb.push_sms(phone, "+919489837***",msg) #use receiver phone number
 
 
 
