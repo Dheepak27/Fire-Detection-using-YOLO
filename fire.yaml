@@ -1,0 +1,5 @@
+
+train: fire/images/train
+val: fire/images/val
+nc: 1
+names: ['FIRE']
